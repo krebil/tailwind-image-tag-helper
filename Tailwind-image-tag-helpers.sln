@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailwindImagesTagHelpersRCL", "TailwindImagesTagHelpersRCL\TailwindImagesTagHelpersRCL.csproj", "{3F1C1B25-3A5D-465E-AA87-00DCD4C263C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoProject1", "UmbracoProject1\UmbracoProject1.csproj", "{3BD84D95-2D69-4CC1-869B-AD5DF5B54E58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F1C1B25-3A5D-465E-AA87-00DCD4C263C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1C1B25-3A5D-465E-AA87-00DCD4C263C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1C1B25-3A5D-465E-AA87-00DCD4C263C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1C1B25-3A5D-465E-AA87-00DCD4C263C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD84D95-2D69-4CC1-869B-AD5DF5B54E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD84D95-2D69-4CC1-869B-AD5DF5B54E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD84D95-2D69-4CC1-869B-AD5DF5B54E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD84D95-2D69-4CC1-869B-AD5DF5B54E58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

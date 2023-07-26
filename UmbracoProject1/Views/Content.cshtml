@@ -1,0 +1,23 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Content>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "_Layout";
+}
+
+@if (Model.Images != null)
+{
+	<div class="grid xl:grid-cols-2">
+		@foreach (var mediaWithCrops in Model.Images)
+		{
+			var image = mediaWithCrops.Content as Image;
+
+			<tw-img
+				src="@mediaWithCrops.Url()"
+				conserve-src="true"
+				width="@image?.UmbracoWidth.ToString()"
+				height="@image?.UmbracoHeight.ToString()"
+				class="w-full" size-xl="0.5"/>
+		}
+	</div>
+}
